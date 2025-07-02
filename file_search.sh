@@ -7,7 +7,7 @@ FILE_TYPE=$1
 KEY_COMMAND=$2
 KEY_WORD="mckinnon"
 
-
+# this is a test comment
 
 
 find ~ -type f -name "*.$FILE_TYPE" -user "wmckinnon" 2>/dev/null | while read -r FILE; do
